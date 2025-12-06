@@ -15,10 +15,9 @@ long toDecimal(char numStr[], int base) {
 
 /*
  * Converts a decimal number to a target base (2, 8, 16).
- * The result is stored in passed 'output' buffer as a string.
  */
 void fromDecimal(long num, int base, char *output) {
-    char temp[65];     // Temporary buffer for reversal
+    char temp[65];     
     int idx = 0;
 
     if (num == 0) {
@@ -147,4 +146,5 @@ int main() {
 
     return 0;
 }
+
 
